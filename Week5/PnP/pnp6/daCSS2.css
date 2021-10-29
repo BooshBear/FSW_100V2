@@ -1,0 +1,144 @@
+@media only screen and (min-width: 5px) {
+    * {
+        color: whitesmoke;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        grid-gap: 1rem;
+        grid-auto-rows: auto 40px;
+    }
+    header {
+        background-color: grey;
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .sidebar {
+        background-color: rgb(98, 98, 98);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .stuff {
+        background-color: rgb(98, 98, 98);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .sidebar2 {
+        background-color: rgb(175, 175, 175);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    footer {
+        background-color: rgb(143, 143, 143);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    * {
+        color: whitesmoke;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-gap: 1rem;
+        grid-auto-rows: 50px auto;
+    }
+    header {
+        background-color: grey;
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/4;
+    }
+    .sidebar {
+        background-color: rgb(98, 98, 98);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/2;
+    }
+    .stuff {
+        background-color: rgb(98, 98, 98);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+        grid-column: 2/4;
+    }
+    .sidebar2 {
+        background-color: rgb(175, 175, 175);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/4;
+    }
+    footer {
+        background-color: rgb(143, 143, 143);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/4;
+    }
+}
+@media only screen and (min-width: 1279px) {
+    * {
+        color: whitesmoke;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        grid-gap: 1rem;
+        grid-auto-rows: 70px auto;
+    }
+    header {
+        background-color: grey;
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/5;
+    }
+    .sidebar {
+        background-color: rgb(98, 98, 98);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/2;
+    }
+    .stuff {
+        background-color: rgb(98, 98, 98);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+        grid-column: 2/4;
+    }
+    .sidebar2 {
+        background-color: rgb(175, 175, 175);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 4/5;
+    }
+    footer {
+        background-color: rgb(143, 143, 143);
+        border: hidden 2px;
+        border-radius: 5px;
+        padding: 5px;
+
+        grid-column: 1/5;
+    }
+}
