@@ -1,4 +1,4 @@
-h1 {
+.title {
     color: darkgreen;
 }
 
@@ -7,7 +7,7 @@ h1, h2 {
     text-align: center;
 }
 
-p {
+body > p {
     line-height: 25px;
 }
 
@@ -28,6 +28,3 @@ img {
     margin-right: 30px;
 }
 
-p > b {
-    color: red;
-}
