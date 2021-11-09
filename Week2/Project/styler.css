@@ -27,3 +27,7 @@ img {
     float: left;
     margin-right: 30px;
 }
+
+p > b {
+    color: red;
+}
